@@ -14,7 +14,7 @@ public class Main {
 			System.out.println("メニューを選択してください");
 			System.out.println("1：在庫登録");
 			System.out.println("2：在庫数呼び出し");
-			System.out.println("3:終了する場合はCtr + cを押してください");
+			System.out.println("終了する場合はCtr + cを押してください");
 			Scanner sc = new Scanner(System.in);
 			int i = sc.nextInt();
 
