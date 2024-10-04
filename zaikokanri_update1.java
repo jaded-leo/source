@@ -10,12 +10,12 @@ public class Main {
 	public static void main(String[] args) {
 		
 		HashMap<String, String> map = new HashMap<String, String>();
+		Scanner sc = new Scanner(System.in);
 		while (true) {
 			System.out.println("メニューを選択してください");
 			System.out.println("1：在庫登録");
 			System.out.println("2：在庫数呼び出し");
 			System.out.println("終了する場合はCtr + cを押してください");
-			Scanner sc = new Scanner(System.in);
 			try {int i= sc.nextInt(); 
 			
 			if (i == 1) {
