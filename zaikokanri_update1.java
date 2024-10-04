@@ -36,10 +36,10 @@ public class Main {
 	public static HashMap<String, String> touroku(HashMap<String, String> map) {
 		
 		System.out.println("商品名を入力してください");
-		Scanner sc1 = new Scanner(System.in);
-		String s = sc1.nextLine();
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
 		System.out.println("数量を入力してください");
-		String str1= sc1.nextLine();
+		String str1= sc.nextLine();
 		map.put(s, str1);
 		return map;}
 
