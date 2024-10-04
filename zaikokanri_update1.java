@@ -28,7 +28,7 @@ public class Main {
 			
 			else System.out.println("メニューは半角数字1または2で選択してください");
 				}
-			catch (java.util.InputMismatchException i){System.out.println("メニュー選択は半角数字で入力してください");
+			catch (java.util.InputMismatchException i){System.out.println("メニュー選択は半角数字1または2で入力してください");
 				}
 		}
 	}
