@@ -26,9 +26,9 @@ public class Main {
 					yobidashi(map);
 				}
 			
-			else System.out.println("メニュー選択は半角数字1または2で選択してください");
+			else System.out.println("メニュー選択は半角数字1または2で選択してください\r\n");
 				}
-			catch (java.util.InputMismatchException i){System.out.println("メニュー選択は半角数字1または2で入力してください");
+			catch (java.util.InputMismatchException i){System.out.println("メニュー選択は半角数字1または2で入力してください\r\n");
 				}
 		}
 	}
@@ -50,9 +50,9 @@ public class Main {
 		String str1= sc.nextLine();
 		String s= map.get(str1);
 		if (s==null) {
-				System.out.println("この商品は登録されていません");
+				System.out.println("この商品は登録されていません\r\n");
 				}
-		else System.out.println("商品の数は"+s+ "個");
+		else System.out.println("商品の数は"+s+ "個\r\n");
 	
 	}
 }
