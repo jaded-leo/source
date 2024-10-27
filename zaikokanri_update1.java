@@ -30,6 +30,7 @@ public class Main {
 				}
 			catch (java.util.InputMismatchException i){System.out.println("不正な文字が入力されました。\r\n"
 					+ "メニュー選択は半角数字1または2で入力してください\r\n"+"プログラムを再起動してください");
+				break;
 				}
 		}
 	}
