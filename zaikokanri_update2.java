@@ -63,7 +63,13 @@ public class Main {
 	
 	}
 	public static void kakikomi(HashMap<String, String> map){
-		File file = new File("C:\\Users\\brave\\Desktop\\出力\\text.txt");
+		Path p = Paths.get("\\在庫\\出力");
+		try{
+			  Files.createDirectories(p);
+			}catch(IOException e){
+			  System.out.println("エラーです");
+			}
+		File file = new File("C:\\在庫\\出力\\text.txt");
 		FileWriter s =null;
 		try{
 		s = new FileWriter(file,true);
